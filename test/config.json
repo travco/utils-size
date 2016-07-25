@@ -1,5 +1,9 @@
 {
   "lint": true,
+  "variables": {
+  	"mediaBreakpoints": "-xsm-, -sm-, -md-, -lg-, -xlg-",
+	  "maxDivisions": "12"
+	},
   "postcss-reporter": {
     "plugins": ["stylelint", "postcss-import", "postcss-bem-linter"],
     "throwError": true

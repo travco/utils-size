@@ -21,7 +21,7 @@
     "build-test": "npm i && npm run preprocess-test",
     "lint": "suitcss -c test/config.json index.css build/lint.css && rm build/lint.css",
     "preprocess": "node lib/generator.js",
-    "preprocess-test": "suitcss -i test test/test.css build/test.css",
+    "preprocess-test": "suitcss -i test -c test/config.json test/test.css build/test.css",
     "watch": "npm run preprocess-test -- -w -v",
     "test": "npm run lint"
   },
