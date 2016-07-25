@@ -14,7 +14,7 @@
  *    http://git.io/vllMD
  */
 
-@for $j from 2 to --maxDivisions {
+@for $j from 2 to var(--maxDivisions) {
   @for $i from 1 to $j {
     .u-size$(i)of$(j) {
       flex-basis: auto !important;

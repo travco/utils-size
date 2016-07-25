@@ -1,9 +1,16 @@
 {
   "lint": true,
-  "variables": {
-  	"mediaBreakpoints": "-xsm-, -sm-, -md-, -lg-, -xlg-",
-	  "maxDivisions": "12"
-	},
+	"use" : [
+		"postcss-easy-import",
+		"postcss-at-rules-variables",
+    "postcss-custom-properties",
+    "postcss-each",
+    "postcss-for",
+    "postcss-calc",
+    "postcss-custom-media",
+    "autoprefixer",
+    "postcss-reporter"
+  ],
   "postcss-reporter": {
     "plugins": ["stylelint", "postcss-import", "postcss-bem-linter"],
     "throwError": true

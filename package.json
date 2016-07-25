@@ -13,7 +13,7 @@
     "stylelint": "^5.4.0",
     "stylelint-config-suitcss": "^5.0.0",
     "suitcss-components-test": "*",
-    "suitcss-preprocessor": "git://github.com/travco/preprocessor.git#465c7e9",
+    "suitcss-preprocessor": "git://github.com/travco/preprocessor.git#1af03b8",
     "suitcss-utils-display": "^1.0.1"
   },
   "scripts": {
@@ -35,5 +35,8 @@
     "size",
     "suitcss",
     "style"
-  ]
+  ],
+  "dependencies": {
+    "postcss-at-rules-variables": "0.0.25"
+  }
 }
