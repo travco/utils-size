@@ -1,4 +1,12 @@
 @import "./lib/size.css";
-@import "./lib/size-sm.css";
+@import "./lib/size-media.css";
+
+@custom-media --xsm-viewport (min-width:120px) and (max-width:320px);
+@custom-media --sm-viewport (min-width:320px) and (max-width:640px);
+@custom-media --md-viewport (min-width:640px) and (max-width:960px);
+@custom-media --lg-viewport (min-width:960px) and (max-width:1920px);
+@custom-media --xlg-viewport (min-width:1920px);
+
+/*@import "./lib/size-sm.css";
 @import "./lib/size-md.css";
-@import "./lib/size-lg.css";
+@import "./lib/size-lg.css";*/
