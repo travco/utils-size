@@ -13,7 +13,7 @@
     "stylelint": "^5.4.0",
     "stylelint-config-suitcss": "^5.0.0",
     "suitcss-components-test": "*",
-    "suitcss-preprocessor": "git://github.com/travco/preprocessor.git#1af03b8",
+    "suitcss-preprocessor": "git://github.com/travco/preprocessor.git#b0a98a9",
     "suitcss-utils-display": "^1.0.1"
   },
   "scripts": {
